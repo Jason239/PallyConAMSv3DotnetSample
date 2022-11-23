@@ -19,8 +19,8 @@ namespace PallyCon
         private const string SourceUri = "";    // Your content
         private static readonly string ContentId = "";  // Your content id
         private static readonly string DefaultStreamingEndpointName = "default";     // Change this to your Endpoint name.
-        private static readonly string StreamingPolicyNameCbcs = "cbcsStreamingPolicy";
-        private static readonly string LabelCbcs = "cbcsKeyDefault";
+        private static readonly string StreamingPolicyName = "cbcsStreamingPolicy";
+        private static readonly string LabelDefaultKey = "cbcsKeyDefault";
         public static async Task Main(string[] args)
         {
 
